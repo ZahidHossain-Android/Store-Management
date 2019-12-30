@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="25dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="Add Product"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/button_shape"
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="View Stock"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_shape"
+
+
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:text="Update Stock"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp"
+
+
+            >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="Delete Product"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+
+            >
+
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_shape"
+
+
+        >
+
+    </Button>
+
+
+
+
+
+
+</LinearLayout>

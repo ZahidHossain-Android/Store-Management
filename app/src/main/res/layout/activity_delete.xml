@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:layout_height="match_parent"
+    tools:context=".DeleteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginTop="30dp"
+        >
+
+        <EditText
+            android:id="@+id/editsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="Search products.."
+
+            >
+        </EditText>
+
+        <Button
+            android:id="@+id/searchbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textColor="#fff"
+            android:background="@drawable/button_shape"
+            android:textSize="20dp"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:hint="Product Name"
+            android:textAllCaps="false"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/pq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="P.Q"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+
+
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Delete"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_shape"
+        android:textColor="#fff"
+        android:visibility="gone"
+        >
+
+    </Button>
+
+</LinearLayout>

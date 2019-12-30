@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "168610948442",
+    "firebase_url": "https://store-management-bff3d.firebaseio.com",
+    "project_id": "store-management-bff3d",
+    "storage_bucket": "store-management-bff3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168610948442:android:a75d8486981c22f3fb3f63",
+        "android_client_info": {
+          "package_name": "com.example.storemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168610948442-dh397nhh07gjpsbf339f9c2gon6ao7vj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.storemanagement",
+            "certificate_hash": "2bd00ad9f7ed5ee5b68ca7c04373deeefd6e60ba"
+          }
+        },
+        {
+          "client_id": "168610948442-9h961thl38f37cqcn14h9ilu37m7egtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfBFmAHSfyc4XLJCqMkyOB9IosRSKgjQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168610948442-9h961thl38f37cqcn14h9ilu37m7egtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
