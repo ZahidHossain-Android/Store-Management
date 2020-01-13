@@ -29,10 +29,21 @@
         android:textColor="#FFFFFF"
         android:background="@color/colorAccent"
         android:textAllCaps="false"
-
-
         >
+    </TextView>
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEproducton"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        android:textAllCaps="false"
+        >
     </TextView>
 
 </LinearLayout>

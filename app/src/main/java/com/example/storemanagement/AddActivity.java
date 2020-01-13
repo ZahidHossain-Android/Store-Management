@@ -49,11 +49,11 @@ public class AddActivity extends AppCompatActivity {
                 ){
 
 
-                    String myCurrentDateTime = DateFormat.getDateTimeInstance()
-                            .format(Calendar.getInstance().getTime());
+//                    String myCurrentDateTime = DateFormat.getDateTimeInstance()
+//                            .format(Calendar.getInstance().getTime());
                     AddData sendData = new AddData(product_name,product_quantity);
 
-                    requestRF.child(myCurrentDateTime).setValue(sendData).addOnCompleteListener(new OnCompleteListener<Void>() {
+                    requestRF.child(product_name).setValue(sendData).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()){
